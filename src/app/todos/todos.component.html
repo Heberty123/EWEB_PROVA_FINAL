@@ -1,4 +1,4 @@
-<p>dados works!</p>
+<p class="title">Table of Todos!</p>
 
 <div class="box-table">
     <table>
@@ -8,11 +8,11 @@
             <td>Title</td>
             <td>Completed</td>
         </tr>
-        <tr *ngFor="let data of todo">
-            <td>{{data.userId}}</td>
-            <td>{{data.id}}</td>
-            <td>{{data.title}}</td>
-            <td>{{data.completed}}</td>
+        <tr class="row-data" *ngFor="let data of todo">
+            <td class="col-userId">{{data.userId}}</td>
+            <td class="col-id">{{data.id}}</td>
+            <td class="col-title">{{data.title}}</td>
+            <td class="col-completed">{{data.completed}}</td>
         </tr>
     </table>
 </div>
