@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DadosComponent } from './dados.component';
+import { TodosComponent } from './todos.component';
 
 describe('DadosComponent', () => {
-  let component: DadosComponent;
-  let fixture: ComponentFixture<DadosComponent>;
+  let component: TodosComponent;
+  let fixture: ComponentFixture<TodosComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DadosComponent ]
+      declarations: [ TodosComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(DadosComponent);
+    fixture = TestBed.createComponent(TodosComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,0 +1,9 @@
+.box-table{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 50%;
+    height: auto;
+}

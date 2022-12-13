@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class DadosService {
+export class TodosService {
 
   private dadosUrl = "https://jsonplaceholder.typicode.com/todos";
 

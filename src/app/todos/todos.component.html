@@ -1,0 +1,19 @@
+<p>dados works!</p>
+
+<div class="box-table">
+    <table>
+        <tr class="table-head">
+            <td>UserId</td>
+            <td>Id</td>
+            <td>Title</td>
+            <td>Completed</td>
+        </tr>
+        <tr *ngFor="let data of todo">
+            <td>{{data.userId}}</td>
+            <td>{{data.id}}</td>
+            <td>{{data.title}}</td>
+            <td>{{data.completed}}</td>
+        </tr>
+    </table>
+</div>
+
